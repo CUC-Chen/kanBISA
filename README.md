@@ -38,21 +38,21 @@ The KAN architecture is rooted in the Kolmogorov-Arnold theorem, which posits th
 |-----------|-------------|------|------|-----------|-------------|------|------|
 | BID2011   | MLP         | 0.589| 0.588| CID2013   | MLP         | 0.839| 0.835|
 |           | SVR         | 0.564| 0.561|           | SVR         | 0.831| 0.822|
-|           | BSRBF KAN   | 0.669| 0.641|           | BSRBF KAN   | 0.811| 0.782|
-|           | ChebyKAN    | 0.731| 0.762|           | ChebyKAN    | 0.756| 0.786|
-|           | HermiteKAN  | 0.748| 0.765|           | HermiteKAN  | 0.833| 0.841|
-|           | JacobiKAN   | 0.731| **0.778**|       | JacobiKAN   | 0.769| 0.833|
-|           | WavKAN      | 0.737| 0.756|           | WavKAN      | 0.817| 0.765|
-|           | TaylorKAN   | **0.756**| 0.751|             | TaylorKAN   | **0.862**| **0.844**|
+|           | BSRBF KAN   | 0.697| 0.705|           | BSRBF KAN   | 0.833| 0.802|
+|           | ChebyKAN    | 0.711| 0.769|           | ChebyKAN    | 0.753| 0.792|
+|           | HermiteKAN  | 0.721| **0.779**|           | HermiteKAN  | 0.815| 0.822|
+|           | JacobiKAN   | 0.719| 0.778|       | JacobiKAN   | 0.790| 0.830|
+|           | WavKAN      | 0.655| 0.685|           | WavKAN      | 0.850| 0.824|
+|           | TaylorKAN   | **0.757**| 0.750|             | TaylorKAN   | **0.859**| **0.843**|
 |-----------|-------------|------|------|-----------|-------------|------|------|
 | CLIVE     | MLP         | 0.572| 0.542| KonIQ-10k | MLP         | 0.752| 0.721|
 |           | SVR         | 0.589| **0.561**|       | SVR         | **0.764**| **0.732**|
-|           | BSRBF KAN   | 0.611| 0.466|           | BSRBF KAN   | 0.739| 0.662|
-|           | ChebyKAN    | 0.501| 0.506|           | ChebyKAN    | 0.748| 0.669|
-|           | HermiteKAN  | 0.594| 0.478|           | HermiteKAN  | 0.749| 0.682|
-|           | JacobiKAN   | 0.608| 0.511|           | JacobiKAN   | 0.750| 0.675|
-|           | WavKAN      | 0.586| 0.484|           | WavKAN      | 0.761| 0.692|
-|           | TaylorKAN   | **0.613**| 0.495|             | TaylorKAN   | 0.719| 0.641|
+|           | BSRBF KAN   | 0.601| 0.514|           | BSRBF KAN   | 0.742| 0.667|
+|           | ChebyKAN    | 0.522| 0.454|           | ChebyKAN    | 0.752| 0.675|
+|           | HermiteKAN  | 0.581| 0.522|           | HermiteKAN  | 0.747| 0.678|
+|           | JacobiKAN   | 0.572| 0.475|           | JacobiKAN   | 0.749| 0.676|
+|           | WavKAN      | 0.606| 0.498|           | WavKAN      | 0.762| 0.690|
+|           | TaylorKAN   | **0.608**| 0.488|             | TaylorKAN   | 0.719| 0.640|
 
 ### Deeply Learned Features
 
@@ -60,21 +60,21 @@ The KAN architecture is rooted in the Kolmogorov-Arnold theorem, which posits th
 |-----------|-------------|------|------|-----------|-------------|------|------|
 | BID2011   | MLP         | 0.746| 0.725| CID2013   | MLP         | **0.925**| **0.909**|
 |           | SVR         | 0.774| 0.752|           | SVR         | 0.924| 0.906|
-|           | BSRBF KAN   | 0.822| 0.808|           | BSRBF KAN   | 0.858| 0.868|
-|           | ChebyKAN    | 0.807| 0.814|           | ChebyKAN    | 0.532| 0.585|
-|           | HermiteKAN  | 0.824| 0.840|           | HermiteKAN  | 0.659| 0.652|
-|           | JacobiKAN   | **0.832**| **0.842**|           | JacobiKAN   | 0.661| 0.650|
-|           | WavKAN      | 0.797| 0.791|           | WavKAN      | 0.832| 0.848|
+|           | BSRBF KAN   | 0.818| 0.813|           | BSRBF KAN   | 0.858| 0.861|
+|           | ChebyKAN    | 0.809| 0.816|           | ChebyKAN    | 0.525| 0.527|
+|           | HermiteKAN  | 0.825| 0.831|           | HermiteKAN  | 0.636| 0.635|
+|           | JacobiKAN   | **0.826**| **0.834**|           | JacobiKAN   | 0.683| 0.685|
+|           | WavKAN      | 0.797| 0.811|           | WavKAN      | 0.839| 0.850|
 |           | TaylorKAN   | 0.792| 0.788|           | TaylorKAN   | 0.716| 0.682|
 |-----------|-------------|------|------|-----------|-------------|------|------|
 | CLIVE     | MLP         | 0.465| 0.440| KonIQ-10k | MLP         | 0.607| 0.576|
-|           | SVR         | 0.733| 0.724|           | SVR         | 0.803| 0.783|
-|           | BSRBF KAN   | **0.751**| 0.660|           | BSRBF KAN   | 0.841| 0.808|
-|           | ChebyKAN    | 0.698| 0.572|           | ChebyKAN    | 0.840| 0.804|
-|           | HermiteKAN  | 0.720| 0.677|           | HermiteKAN  | 0.842| 0.806|
-|           | JacobiKAN   | 0.733| 0.683|           | JacobiKAN   | 0.842| 0.809|
-|           | WavKAN      | **0.751**| **0.686**|           | WavKAN      | **0.846**| **0.812**|
-|           | TaylorKAN   | 0.664| 0.593|           | TaylorKAN   | 0.831| 0.799|
+|           | SVR         | 0.733| **0.724**|           | SVR         | 0.803| 0.783|
+|           | BSRBF KAN   | 0.737| 0.663|           | BSRBF KAN   | 0.840| 0.807|
+|           | ChebyKAN    | 0.683| 0.545|           | ChebyKAN    | 0.838| 0.804|
+|           | HermiteKAN  | 0.741| 0.704|           | HermiteKAN  | 0.844| 0.810|
+|           | JacobiKAN   | 0.747| 0.694|           | JacobiKAN   | 0.842| 0.809|
+|           | WavKAN      | **0.761**| 0.687|           | WavKAN      | **0.848**| **0.817**|
+|           | TaylorKAN   | 0.664| 0.593|           | TaylorKAN   | 0.831| 0.801|
 
 ## 🚀 Conclusion
 
