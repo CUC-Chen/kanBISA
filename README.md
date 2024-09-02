@@ -41,7 +41,7 @@ The KAN architecture is rooted in the Kolmogorov-Arnold theorem, which posits th
 |           | BSRBF KAN   | 0.697| 0.705|           | BSRBF KAN   | 0.833| 0.802|
 |           | ChebyKAN    | 0.711| 0.769|           | ChebyKAN    | 0.753| 0.792|
 |           | HermiteKAN  | 0.721| **0.779**|           | HermiteKAN  | 0.815| 0.822|
-|           | JacobiKAN   | 0.719| 0.778|       | JacobiKAN   | 0.790| 0.830|
+|           | JacobiKAN   | 0.719| 0.778|       | JacobiKAN   | 0.792| 0.830|
 |           | WavKAN      | 0.655| 0.685|           | WavKAN      | 0.850| 0.824|
 |           | TaylorKAN   | **0.757**| 0.750|             | TaylorKAN   | **0.859**| **0.843**|
 |-----------|-------------|------|------|-----------|-------------|------|------|
