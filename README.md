@@ -65,7 +65,7 @@ The KAN architecture is rooted in the Kolmogorov-Arnold theorem, which posits th
 |           | HermiteKAN  | 0.825| 0.831|           | HermiteKAN  | 0.636| 0.635|
 |           | JacobiKAN   | **0.826**| **0.834**|           | JacobiKAN   | 0.683| 0.685|
 |           | WavKAN      | 0.797| 0.811|           | WavKAN      | 0.839| 0.850|
-|           | TaylorKAN   | 0.792| 0.788|           | TaylorKAN   | 0.716| 0.682|
+|           | TaylorKAN   | 0.792| 0.788|           | TaylorKAN   | 0.750| 0.756|
 |-----------|-------------|------|------|-----------|-------------|------|------|
 | CLIVE     | MLP         | 0.465| 0.440| KonIQ-10k | MLP         | 0.607| 0.576|
 |           | SVR         | 0.733| **0.724**|           | SVR         | 0.803| 0.783|
@@ -74,7 +74,7 @@ The KAN architecture is rooted in the Kolmogorov-Arnold theorem, which posits th
 |           | HermiteKAN  | 0.741| 0.704|           | HermiteKAN  | 0.844| 0.810|
 |           | JacobiKAN   | 0.747| 0.694|           | JacobiKAN   | 0.842| 0.809|
 |           | WavKAN      | **0.761**| 0.687|           | WavKAN      | **0.848**| **0.817**|
-|           | TaylorKAN   | 0.664| 0.593|           | TaylorKAN   | 0.831| 0.801|
+|           | TaylorKAN   | 0.667| 0.563|           | TaylorKAN   | 0.831| 0.801|
 
 ## 🚀 Conclusion
 
